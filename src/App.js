@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { ChildArea } from "./ChildArea";
-import {CssModules} from "./components/CssModules"
+import { CssModules } from "./components/CssModules"
 import { InlineStyle } from "./components/InlineStyle";
 import "./styles.css";
 
