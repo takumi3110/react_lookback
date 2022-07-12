@@ -1,0 +1,26 @@
+.container {
+  border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+  margin: 0;
+  color: #3d84a8;
+}
+
+.button {
+  background-color: #abedd8;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  &:hover {
+    background-color: #46cdcf;
+    color: #fff;
+    cursor: pointer;
+  }
+}
