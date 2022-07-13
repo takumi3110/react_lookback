@@ -1,8 +1,11 @@
-import { useState, useCallback } from "react";
-import { ChildArea } from "./ChildArea";
-import { CssModules } from "./components/CssModules"
-import { InlineStyle } from "./components/InlineStyle";
+import {useState, useCallback} from "react";
+import {ChildArea} from "./ChildArea";
+import {CssModules} from "./components/CssModules"
+import {InlineStyle} from "./components/InlineStyle";
 import "./styles.css";
+import {StyledJsx} from "./components/StyledJsx";
+import {StyledComponents} from "./components/StyledComponents";
+import {Emotion} from "./components/Emotion";
 
 export default function App() {
   console.log("App");
@@ -17,13 +20,16 @@ export default function App() {
 
   return (
     <div className="App">
-      <input value={text} onChange={onChangeText} />
-      <br />
-      <br />
+      <input value={text} onChange={onChangeText}/>
+      <br/>
+      <br/>
       <button onClick={onClickOpen}>表示</button>
-      <ChildArea open={open} onClickClose={onClickClose} />
+      <ChildArea open={open} onClickClose={onClickClose}/>
       <InlineStyle/>
-      <CssModules />
+      <CssModules/>
+      <StyledJsx/>
+      <StyledComponents/>
+      <Emotion/>
     </div>
   );
 }

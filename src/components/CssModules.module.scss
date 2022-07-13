@@ -1,11 +1,11 @@
 .container {
   border: solid 1px black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .title {
@@ -18,6 +18,7 @@
   border: none;
   padding: 8px;
   border-radius: 8px;
+
   &:hover {
     background-color: #46cdcf;
     color: #fff;
